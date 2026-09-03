@@ -17,9 +17,9 @@ form.addEventListener('submit', (event) => {
 //==============================================================//
 
 //PART 3========================================================//
-const darkModeButton = document.querySelector('#themeButton');
-darkModeButton.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
+const lightModeButton = document.querySelector('#themeButton');
+lightModeButton.addEventListener("click", () => {
+    document.body.classList.toggle("light");
 });
 //==============================================================//
 

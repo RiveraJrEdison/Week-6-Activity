@@ -1,4 +1,142 @@
-.dark {
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    letter-spacing: 0.8px;
+    color: cyan;
+    background-color: rgb(5, 5, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+ .light {
+    background-color: white;
+    color: black;
+}  
+
+.container {
+    background-color: rgb(4, 14, 27);
+    border: 1px solid cyan;
+    border-radius: 15%;
+    box-shadow: 0px 4px 10px cyan;
+    padding: 24px;
+    width: 260px;
+    text-align: center; 
+}
+
+#nameInput {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    background-color: rgb(5, 5, 34);
+    color: cyan;    
+}
+
+#courseInput {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    background-color: rgb(5, 5, 34);
+    color: cyan;
+}
+
+#submitButton {
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    background-color: rgb(5, 5, 34);
+    color: cyan;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: cyan;
+    color: rgb(5, 5, 34);
+}
+
+#submitButton:active {
+    background-color: rgb(5, 5, 34);
+    color: cyan;
+}
+
+#themeButton {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    background-color: rgb(5, 5, 34);
+    color: cyan;
+    cursor: pointer;
+}
+
+#themeButton:hover {
+    background-color: cyan;
+    color: rgb(5, 5, 34);
+}
+
+#themeButton:active {
+    background-color: rgb(5, 5, 34);
+    color: cyan;
+}
+
+.light #body {
+    background-color: white;
+    color: black;
+}  
+
+.light .container {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid black;
+    box-shadow: 0px 4px 10px black;
+}
+
+.light #nameInput {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.light #courseInput {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.light #submitButton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.light #submitButton:hover {
     background-color: black;
     color: white;
+}
+
+.light #submitButton:active {
+    background-color: white;
+    color: black;
+}
+
+.light #themeButton {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.light #themeButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.light #themeButton:active {
+    background-color: white;
+    color: black;
 }
